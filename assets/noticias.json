@@ -1,0 +1,74 @@
+[
+  {
+    "titulo": "Nuevo trailer de Dungeons & Dragons 2",
+    "descripcion": "La secuela trae nuevas criaturas, hechizos y mas humor epico para mesa y cine.",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/Dungeons_%26_Dragons_Honor_Among_Thieves_poster.jpg",
+    "link": "https://www.imdb.com/title/tt7222086/"
+  },
+  {
+    "titulo": "El creador de Baldur's Gate 3 visita Espana",
+    "descripcion": "Swen Vincke comparte claves de narrativa, decisiones morales y diseno de RPG moderno.",
+    "imagenUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+    "link": "https://larian.com/"
+  },
+  {
+    "titulo": "Netflix prepara serie de The Legend of Zelda",
+    "descripcion": "La nueva adaptacion busca mantener la esencia clasica con una produccion de gran escala.",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/e/e1/The_Legend_of_Zelda_Box_Art.jpg",
+    "link": "https://www.nintendo.com/"
+  },
+  {
+    "titulo": "Guia rapida para empezar en D&D 5e",
+    "descripcion": "Clases, razas, tiradas y reglas base para montar una partida completa en una tarde.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://www.dndbeyond.com/"
+  },
+  {
+    "titulo": "Novedades del SRD de Dungeons & Dragons",
+    "descripcion": "Resumen de contenidos abiertos y recursos para crear aventuras y material propio.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://www.dndbeyond.com/srd"
+  },
+  {
+    "titulo": "Pathfinder presenta contenido de su linea remaster",
+    "descripcion": "La comunidad analiza cambios de reglas y nuevas opciones para personajes de campana.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://paizo.com/pathfinder"
+  },
+  {
+    "titulo": "Critical Role anuncia nuevos proyectos",
+    "descripcion": "La franquicia expande su universo con mas narrativa, especiales y colaboraciones.",
+    "imagenUrl": "https://upload.wikimedia.org/wikipedia/en/8/88/Critical_Role_logo.png",
+    "link": "https://critrole.com/"
+  },
+  {
+    "titulo": "Open5e publica nuevos recursos para directores",
+    "descripcion": "Bestiarios, hechizos y material util para enriquecer encuentros de fantasia.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://open5e.com/"
+  },
+  {
+    "titulo": "Fantasy Grounds mejora herramientas para partidas online",
+    "descripcion": "Mejoras de interfaz y automatizacion para sesiones remotas con tus jugadores.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://www.fantasygrounds.com/"
+  },
+  {
+    "titulo": "Roll20 amplia su biblioteca de modulos",
+    "descripcion": "Mas aventuras listas para jugar y utilidades para gestionar campañas largas.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://roll20.net/"
+  },
+  {
+    "titulo": "DriveThruRPG destaca aventuras independientes",
+    "descripcion": "Autores pequenos publican mundos, one-shots y sistemas con ideas muy originales.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://www.drivethrurpg.com/"
+  },
+  {
+    "titulo": "World Anvil comparte guias para crear lore",
+    "descripcion": "Consejos para organizar reinos, facciones y cronologias de tu mundo de fantasia.",
+    "imagenUrl": "assets/images/fondo_taberna.png",
+    "link": "https://www.worldanvil.com/"
+  }
+]

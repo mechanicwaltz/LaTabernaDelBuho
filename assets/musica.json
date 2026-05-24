@@ -1,0 +1,494 @@
+[
+  {
+    "titulo": "VAMPYR [Vampiric Ancient Transmutation]",
+    "artista": "Humanfobia",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_1/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/01%20-%20Humanfobia%20-%20VAMPYR%20%5BVampiric%20Ancient%20Transmutation%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "The Witch's House [Ceremonial Sacrifice]",
+    "artista": "Filmy Ghost",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_2/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/02%20-%20Filmy%20Ghost%20-%20The%20Witch%27s%20House%20%5BCeremonial%20Sacrifice%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "IB The Forsaken Daughter",
+    "artista": "Kinzarks",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_3/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/03%20-%20Kinzarks%20-%20IB%20The%20Forsaken%20Daughter.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Echoes of the Past (Warcraft 2 Cover)",
+    "artista": "InvisibleSandwichTM",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_4/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/04%20-%20InvisibleSandwichTM%20-%20Echoes%20of%20the%20Past%20%28Warcraft%202%20Cover%29.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Ao Oni - horor-b (Wub Machine Remix)",
+    "artista": "masterofallbutts",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_5/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/05%20-%20masterofallbutts%20-%20Ao%20Oni%20-%20horor-b%20%28Wub%20Machine%20Remix%29.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "yumenikki",
+    "artista": "akkz",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_6/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/06%20-%20akkz%20-%20yumenikki.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Dungeonmaster",
+    "artista": "DJ_Frankenstone",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_7/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/07%20-%20DJ_Frankenstone%20-%20Dungeonmaster.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Planescape",
+    "artista": "SCRY TILE",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_9/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/09%20-%20SCRY%20TILE%20%20-%20Planescape.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "The Disappearance Of The Dwemer",
+    "artista": "Lord Cernunnos",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_10/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/10%20-%20Lord%20Cernunnos%20-%20The%20Disappearance%20Of%20The%20Dwemer.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Mystical Ride (Hollow Stories)",
+    "artista": "Mean Flow",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_11/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/11%20-%20Mean%20Flow%20-%20Mystical%20Ride%20%28Hollow%20Stories%29.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Ancient One [The Witcher]",
+    "artista": "Solas",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_12/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/12%20-%20Solas%20-%20Ancient%20One%20%5BThe%20Witcher%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "old-town [inspired by Alundra 2]",
+    "artista": "DJ Uchuu",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_13/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/13%20-%20DJ%20Uchuu%20-%20old-town%20%5Binspired%20by%20Alundra%202%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Child of Madness(Fran Bow Inspired)",
+    "artista": "Enzo2090",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_14/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/14%20-%20Enzo2090%20%20-%20Child%20of%20Madness%28Fran%20Bow%20Inspired%29.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "The Elder Tavern",
+    "artista": "Medieval Rites",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_15/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/15%20-%20Medieval%20Rites%20-%20The%20Elder%20Tavern.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Zelda - rpg",
+    "artista": "superghst",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_16/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/16%20-%20superghst%20-%20Zelda%20-%20rpg.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Khajiiti Vengeance",
+    "artista": "Terbeschikkingstelling",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_17/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/17%20-%20Terbeschikkingstelling%20-%20Khajiiti%20Vengeance.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Mass Effect  [Uncharted Worlds]",
+    "artista": "xi-intersection",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_18/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/18%20-%20xi-intersection%20-%20Mass%20Effect%20%20%5BUncharted%20Worlds%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Dragon Quest",
+    "artista": "VASID",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_19/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/19%20-%20VASID%20-%20Dragon%20Quest.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Final Fantasy 9 battle2",
+    "artista": "Viridian Music",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_20/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/20%20-%20Viridian%20Music%20%20-%20Final%20Fantasy%209%20battle2.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "arcus odyssey",
+    "artista": "neverheardof.me",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_21/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/21%20-%20neverheardof.me%20-%20arcus%20odyssey.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Phantasy Star - owlbear",
+    "artista": "Paul F. Ferguson",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_22/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/22%20-%20Paul%20F.%20Ferguson%20-%20Phantasy%20Star%20-%20owlbear.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Dark Souls 3-Dancer of Boreal Valley (Tetarise Bootleg)",
+    "artista": "Tetarise",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_23/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/23%20-%20Tetarise%20-%20Dark%20Souls%203-Dancer%20of%20Boreal%20Valley%20%28Tetarise%20Bootleg%29.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Vampire The Masquerade - Bloodlines [WorldSpiritMap r3mixx]",
+    "artista": "Hitrison",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_24/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/24%20-%20Hitrison%20-%20Vampire%20The%20Masquerade%20-%20Bloodlines%20%5BWorldSpiritMap%20r3mixx%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Deus ex machina",
+    "artista": "Elektrix-Musix",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_25/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/25%20-%20Elektrix-Musix%20%20-%20Deus%20ex%20machina.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Skyrim World Asleep",
+    "artista": "Arthur Vyncke",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_26/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/26%20-%20Arthur%20Vyncke%20-%20Skyrim%20World%20Asleep.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "neon memory [yume nikki]",
+    "artista": "fsnowdin",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_27/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/27%20-%20fsnowdin%20-%20neon_memory%20%5Byume%20nikki%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Wizardry [A Brief Return]",
+    "artista": "Hitrison",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_28/512/512",
+    "audioUrl": "https://archive.org/download/v-a-rpg-music/28%20-%20Hitrison%20-%20Wizardry%20%5BA%20Brief%20Return%5D.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "fantasía",
+      "rpg"
+    ]
+  },
+  {
+    "titulo": "Man Is For The Woman Made / Sir Walter / To Thee And To The Maid / Chiding Catch (\"Fie, Nay\")",
+    "artista": "Deller Consort",
+    "coverUrl": "https://picsum.photos/seed/tavern_song_28/512/512",
+    "audioUrl": "https://archive.org/download/lp_tavern-songs_deller-consort/disc1/01.01.%20Man%20Is%20For%20The%20Woman%20Made%3B%20Sir%20Walter%3B%20To%20Thee%20And%20To%20The%20Maid%3B%20Chiding%20Catch%20%28%22Fie%2C%20Nay%22%29.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "renacimiento",
+      "canción"
+    ]
+  },
+  {
+    "titulo": "Once, Twice, Thrice / When The Cock Begins To Crow / An Epitaph: \"Under This Stone\"",
+    "artista": "Deller Consort",
+    "coverUrl": "https://picsum.photos/seed/tavern_song_29/512/512",
+    "audioUrl": "https://archive.org/download/lp_tavern-songs_deller-consort/disc1/01.02.%20Once%2C%20Twice%2C%20Thrice%3B%20When%20The%20Cock%20Begins%20To%20Crow%3B%20An%20Epitaph%3A%20%22Under%20This%20Stone%22.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "renacimiento",
+      "canción"
+    ]
+  },
+  {
+    "titulo": "I Am Athirst / Wine Does Wonders / Hoyda, Jolly Rutterkin",
+    "artista": "Deller Consort",
+    "coverUrl": "https://picsum.photos/seed/tavern_song_30/512/512",
+    "audioUrl": "https://archive.org/download/lp_tavern-songs_deller-consort/disc1/02.01.%20I%20Am%20Athirst%3B%20Wine%20Does%20Wonders%3B%20Hoyda%2C%20Jolly%20Rutterkin.mp3",
+    "tags": [
+      "taberna",
+      "medieval",
+      "renacimiento",
+      "canción"
+    ]
+  },
+  {
+    "titulo": "OverWorld Folk (Royalty Free)",
+    "artista": "Peritune",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_1/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2021/05/overworld-folk-Peritune.mp3",
+    "tags": [
+      "folk",
+      "videojuegos",
+      "medieval"
+    ]
+  },
+  {
+    "titulo": "Journey’s Reflection",
+    "artista": "Darren Curtis",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_13/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2022/06/musica-ambient-medieval-fantasy.mp3",
+    "tags": [
+      "ambient",
+      "medieval",
+      "fantasy"
+    ]
+  },
+  {
+    "titulo": "Beyond the Warriors",
+    "artista": "Guifrog",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_2/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2022/06/musica-medieval-guifrog.mp3",
+    "tags": [
+      "medieval",
+      "world",
+      "fantasy"
+    ]
+  },
+  {
+    "titulo": "Homeward Bound",
+    "artista": "Mattias Westlund",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_3/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2023/05/homeward-bound.mp3",
+    "tags": [
+      "classical",
+      "instrumental",
+      "epic"
+    ]
+  },
+  {
+    "titulo": "Forest Walk (Medieval Fantasy)",
+    "artista": "Alexander Nakarada",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_4/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2021/05/musica-forest-walk-Alexander-Nakarada.mp3",
+    "tags": [
+      "fantasy",
+      "celtic",
+      "ambient"
+    ]
+  },
+  {
+    "titulo": "Epic Action",
+    "artista": "Voytek Pavlik",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_5/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2023/05/epic-action.mp3",
+    "tags": [
+      "epic",
+      "battle",
+      "fantasy"
+    ]
+  },
+  {
+    "titulo": "Havoc",
+    "artista": "Peritune",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_6/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2021/05/havoc-Peritune.mp3",
+    "tags": [
+      "epica",
+      "rock",
+      "energia"
+    ]
+  },
+  {
+    "titulo": "Chase",
+    "artista": "Alexander Nakarada",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_7/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2023/05/chase.mp3",
+    "tags": [
+      "epica",
+      "suspense",
+      "aventura"
+    ]
+  },
+  {
+    "titulo": "Fuegos Artificiales",
+    "artista": "Alexander Nakarada",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_9/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2021/05/musica-fuegos-artificiales.mp3",
+    "tags": [
+      "energico",
+      "fantasia",
+      "ritmo"
+    ]
+  },
+  {
+    "titulo": "A Peaceful Sanctuary",
+    "artista": "Tristan Lohengrin",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_10/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2019/09/Tristan_Lohengrin_-_A_Peaceful_Sanctuary.mp3",
+    "tags": [
+      "calma",
+      "ambient",
+      "relajante"
+    ]
+  },
+  {
+    "titulo": "Folk Chinese",
+    "artista": "Free Music",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_11/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2023/05/folk-chinese-royalty-free-music.mp3",
+    "tags": [
+      "folk",
+      "oriental",
+      "ambiente"
+    ]
+  },
+  {
+    "titulo": "Another Happy Day",
+    "artista": "Free Music",
+    "coverUrl": "https://picsum.photos/seed/tavern_rpg_12/512/512",
+    "audioUrl": "https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2021/05/another-happy-day-Free-Music.mp3",
+    "tags": [
+      "alegre",
+      "suave",
+      "ambient"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function self(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    function emailLower() {
+      return signedIn() && request.auth.token.email != null
+        ? lower(request.auth.token.email)
+        : '';
+    }
+
+    function emailVerified() {
+      return signedIn() && request.auth.token.email_verified == true;
+    }
+
+    function userActive(uid) {
+      return firestore.exists(/databases/(default)/documents/users/$(uid))
+        && firestore.get(/databases/(default)/documents/users/$(uid)).data.isActive == true;
+    }
+
+    function isAdmin() {
+      return signedIn()
+        && firestore.exists(/databases/(default)/documents/admin_emails/$(emailLower()))
+        && firestore.get(/databases/(default)/documents/admin_emails/$(emailLower())).data.enabled == true;
+    }
+
+    match /profile_images/{uid}/{fileName} {
+      allow read: if (self(uid) && emailVerified() && userActive(uid)) || isAdmin();
+      allow write: if self(uid) && emailVerified() && userActive(uid);
+    }
+
+  }
+}

@@ -1,0 +1,143 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function self(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    function emailLower() {
+      return signedIn() && request.auth.token.email is string
+        ? request.auth.token.email.lower()
+        : '';
+    }
+
+    function isAdmin() {
+      return signedIn()
+        && exists(/databases/$(database)/documents/admin_emails/$(emailLower()))
+        && get(/databases/$(database)/documents/admin_emails/$(emailLower())).data.enabled == true;
+    }
+
+    function userActive(uid) {
+      return exists(/databases/$(database)/documents/users/$(uid))
+        && get(/databases/$(database)/documents/users/$(uid)).data.isActive == true;
+    }
+
+    function emailVerified() {
+      return signedIn() && request.auth.token.email_verified == true;
+    }
+
+    match /admin_emails/{email} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /app_meta/{docId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /admin_broadcasts/{broadcastId} {
+      allow read: if signedIn() && userActive(request.auth.uid);
+      allow create: if isAdmin()
+        && request.resource.data.title is string
+        && request.resource.data.body is string
+        && request.resource.data.target is string
+        && request.resource.data.createdByUid is string
+        && request.resource.data.createdByEmail is string;
+      allow update, delete: if isAdmin();
+    }
+
+    match /users/{uid} {
+      allow create: if self(uid)
+        && emailVerified()
+        && request.resource.data.correo is string
+        && request.resource.data.usuario is string
+        && request.resource.data.isActive is bool;
+
+      allow read: if self(uid) || isAdmin();
+
+      allow update: if (self(uid)
+        && request.resource.data.isActive == resource.data.isActive
+        && request.resource.data.correo == resource.data.correo)
+        || isAdmin();
+
+      allow delete: if self(uid) || isAdmin();
+
+      match /notes/{noteId} {
+        allow read, write: if (self(uid) && userActive(uid)) || isAdmin();
+      }
+
+      match /characters/{characterId} {
+        allow read, write: if (self(uid) && userActive(uid)) || isAdmin();
+      }
+
+      match /playlist/{songId} {
+        allow read, write: if (self(uid) && userActive(uid)) || isAdmin();
+      }
+
+      match /news_favorites/{newsId} {
+        allow read, write: if (self(uid) && userActive(uid)) || isAdmin();
+      }
+
+      match /fcmTokens/{tokenId} {
+        allow read, write: if (self(uid) && userActive(uid)) || isAdmin();
+      }
+    }
+
+    match /usernames/{usernameLower} {
+      // Permite comprobar disponibilidad de un username por ID sin iniciar sesión.
+      allow get: if true;
+      allow list: if false;
+      allow create: if isAdmin()
+        || (signedIn()
+          && emailVerified()
+          && request.resource.data.uid == request.auth.uid
+          && !exists(/databases/$(database)/documents/usernames/$(usernameLower)));
+      allow update: if isAdmin()
+        || (signedIn()
+          && resource.data.uid == request.auth.uid
+          && request.resource.data.uid == request.auth.uid);
+      allow delete: if isAdmin()
+        || (signedIn() && resource.data.uid == request.auth.uid);
+    }
+
+    match /recovery_status/{emailLower} {
+      // Solo lectura puntual por email para flujo de "recuperar contraseña".
+      allow get: if true;
+      allow list: if false;
+
+      allow create: if isAdmin()
+        || (signedIn()
+          && request.resource.data.uid == request.auth.uid
+          && request.resource.data.isActive is bool);
+
+      allow update: if isAdmin()
+        || (signedIn()
+          && resource.data.uid == request.auth.uid
+          && request.resource.data.uid == request.auth.uid
+          && request.resource.data.isActive is bool);
+
+      allow delete: if isAdmin()
+        || (signedIn() && resource.data.uid == request.auth.uid);
+    }
+
+    match /songs/{songId} {
+      allow read: if signedIn() && userActive(request.auth.uid);
+      allow write: if isAdmin();
+    }
+
+    match /news/{newsId} {
+      allow read: if signedIn() && userActive(request.auth.uid);
+      allow write: if isAdmin();
+    }
+
+    match /dnd_races/{raceId} {
+      allow read: if signedIn() && userActive(request.auth.uid);
+      allow write: if isAdmin();
+    }
+  }
+}

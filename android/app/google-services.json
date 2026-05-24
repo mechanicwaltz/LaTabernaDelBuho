@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466541494044",
+    "project_id": "taberna-del-buho",
+    "storage_bucket": "taberna-del-buho.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466541494044:android:26e0b8dd6d85d199f344d9",
+        "android_client_info": {
+          "package_name": "com.example.appantibloqueo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB68enJR1V__jsKnfB4EmKG6JoEcXDx1R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
