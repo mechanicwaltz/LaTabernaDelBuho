@@ -2,71 +2,36 @@ name: appantibloqueo
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
-
 environment:
   sdk: ">=3.3.0 <4.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
-
-  # --- DEPENDENCIAS PRINCIPALES ---
-
-  # Firebase
   firebase_core: ^3.13.0
   firebase_auth: ^5.5.0
   cloud_firestore: ^5.6.7
   google_mobile_ads: ^5.2.0
-  # 📦 Gestión de estado
   provider: ^6.1.2
-
-  # 🌐 HTTP
   http: ^1.1.0
-
-  # 🧩 XML (RSS)
   xml: ^6.5.0
-
-  # 🍎 Cupertino Icons
   cupertino_icons: ^1.0.8
-
-  # 🗃️ Hive para persistencia
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-
-  # 🔐 Permisos
   permission_handler: ^11.3.1
-
-  # 📸 Manejo de imágenes
   image_picker: ^1.1.2
   image: ^4.7.2
-
-  # 📂 Directorios locales
   path_provider: ^2.1.4
-
-  # 🌀 Soporte para GIFs animados
   flutter_gif: ^0.0.4
-
-  # 🔊 Reproducción de audio
   just_audio: ^0.9.40+1
-
-  # 🆔 Generar IDs únicas
   uuid: ^4.5.1
-
-  # 💾 Preferencias (almacenamiento ligero)
-  # 🔗 Abrir enlaces
   url_launcher: ^6.3.1
-
-  # ✍️ Google Fonts
   google_fonts: ^6.2.1
-
-  # 🔔 Notificaciones push/local
   firebase_messaging: ^15.2.5
   flutter_local_notifications: ^19.4.2
   flutter_app_badger:
     path: third_party/flutter_app_badger
   shared_preferences: ^2.5.3
   timezone: ^0.10.1
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -75,10 +40,8 @@ dev_dependencies:
   flutter_native_splash: ^2.4.0
   hive_generator: ^2.0.1
   build_runner: ^2.4.8
-
 flutter:
   uses-material-design: true
-
   assets:
     - assets/icon/
     - assets/images/
@@ -86,5 +49,3 @@ flutter:
     - assets/textures/
     - assets/musica.json
     - assets/noticias.json
-
-# --- SECCIÓN DE FUENTES ELIMINADA PARA CORREGIR EL ERROR DE COMPILACIÓN ---

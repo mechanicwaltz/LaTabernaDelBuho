@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:appantibloqueo/features/dnd/presentation/pages/spells_page.dart';
 
 import 'package:appantibloqueo/app/bootstrap_seed_service.dart';
 import 'package:appantibloqueo/core/errors/firebase_error_mapper.dart';
@@ -13,6 +14,7 @@ import 'package:appantibloqueo/core/notifications/notification_service.dart';
 import 'package:appantibloqueo/core/providers/audio_provider.dart';
 import 'package:appantibloqueo/core/providers/snow_provider.dart';
 import 'package:appantibloqueo/features/dnd/presentation/pages/antibloqueo_page.dart';
+import 'package:appantibloqueo/features/dnd/presentation/pages/bestiary_page.dart';
 import 'package:appantibloqueo/features/notifications/presentation/pages/admin_broadcast_page.dart';
 import 'package:appantibloqueo/features/news/presentation/pages/para_ti_page.dart';
 import 'package:appantibloqueo/features/notes/presentation/pages/notas_rapidas_page.dart';
@@ -56,6 +58,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     'DyD',
     'Playlist de Rol',
     'Noticias',
+    'Bestiario',
+    'Grimorio',
   ];
 
   // --- FUNCIONES AUXILIARES ---
@@ -152,7 +156,6 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       ),
     ];
 
-    // Agrega iconos de favoritos según la pestaña
     if (_currentIndex == 2 || _currentIndex == 3) {
       actions.add(
         IconButton(
@@ -212,6 +215,8 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         isAdmin: widget.isAdmin,
         soloFavoritos: false,
       ),
+      const BestiaryPage(),
+      const SpellsPage(),
     ];
   }
 
@@ -249,10 +254,9 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     _runBootstrapIfNeeded();
     _listenNotificationNavigation();
 
-    // Banner de prueba
     banner = BannerAd(
       size: AdSize.banner,
-      adUnitId: 'ca-app-pub-3940256099942544/6300978111', // tu banner real
+      adUnitId: 'ca-app-pub-3940256099942544/6300978111',
       request: AdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (ad) => print('Banner cargado'),
@@ -467,6 +471,16 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                 icon: Icon(Icons.article_outlined),
                 selectedIcon: Icon(Icons.article),
                 label: 'Noticias',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.menu_book_outlined),
+                selectedIcon: Icon(Icons.menu_book),
+                label: 'Bestiario',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.auto_fix_high_outlined),
+                selectedIcon: Icon(Icons.auto_fix_high),
+                label: 'Grimorio',
               ),
             ],
           ),
