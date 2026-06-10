@@ -4,6 +4,13 @@
 ## La Taberna del Búho
 **Aplicación móvil de entretenimiento y comunidad para aficionados a los juegos de rol**
 
+
+[![Flutter](https://img.shields.io/badge/Flutter-3.3.0+-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.3.0+-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Backend-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+
 **Autores:** Maria, Alberto, Tony, Manuel  
 **Titulación:** Desarrollo de Aplicaciones Multiplataforma  
 **Curso académico:** 2025 – 2026  
